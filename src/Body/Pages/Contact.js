@@ -7,7 +7,7 @@ export default function() {
         <div id='title'>
             Contact
         </div>
-        <div id='contact-up'>
+        {/* <div id='contact-up'>
             <div id='contact-form'>
                 <form>
                     <div>
@@ -26,7 +26,7 @@ export default function() {
                     <button type='submit'>SEND</button>
                 </form>
             </div>
-        </div>
+        </div> */}
         <div id='contact-down'>
             <div id='title'> Living, learning, & leveling up <br></br> one day at a time.</div>
             <br></br>

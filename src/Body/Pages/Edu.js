@@ -31,7 +31,7 @@ export default function Edu() {
                 <p>Kkr & Ksr Institute of Technology and Sciences</p>
                 <p>2021-2024</p>
             </div>
-                    <div id='clg' className='lilBox' >
+                    <div id='clg' className='lilBox' style={{display:'none'}}>
                     Bachelor of Technology (B.Tech) in the stream of Computer Science and Engineering ,<br></br>
                      Graduating in 2024 CGPA: 8.1
                     </div>
@@ -39,13 +39,13 @@ export default function Edu() {
                 <p>Bhashyam Junior College</p>
                 <p>2018-2020</p>
             </div>
-                    <div id='inter' className='lilBox'>Board of Intermediate Education(Andhra Pradesh) , <br></br>
+                    <div id='inter' className='lilBox' style={{display:'none'}}>Board of Intermediate Education(Andhra Pradesh) , <br></br>
                     GPA: 9.46</div>
             <div id="place" onClick={()=>{body("school")}}>
                 <p>Sri Chaitanya Techno School</p>
                 <p>2017-2018</p>
             </div>
-                    <div id='school' className='lilBox'>Board of Secondary School Education(Andhra Pradesh),<br></br>
+                    <div id='school' className='lilBox' style={{display:'none'}}>Board of Secondary School Education(Andhra Pradesh),<br></br>
                      GPA:9.5</div>
         </div>
     </div>
